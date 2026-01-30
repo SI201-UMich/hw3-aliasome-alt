@@ -151,11 +151,11 @@ class CouponDispenser:
             if self.issued_indices == []:
                 print("Empty")
             return
-            for i in range(len(self.coupon_cards)):
+        for i in range(len(self.coupon_cards)):
                 count = 0
-            for index in self.issued_indices:
-                if index == i:
-                     count += 1
+        for index in self.issued_indices:
+            if index == i:
+                count += 1
 
 
        

@@ -7,7 +7,7 @@
 # Asked ChatGPT hints for debugging and suggesting the general structure of the code
 # Did your use of GenAI on this assignment align with your goals and guidelines in 
 #    your Gen AI contract? If not, why?
-
+ # begin code
 import random
 import io
 from contextlib import redirect_stdout

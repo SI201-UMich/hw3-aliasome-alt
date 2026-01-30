@@ -26,6 +26,12 @@ class CouponDispenser:
     """
 
     def __init__(self, coupon_cards):
+     
+        self.coupon_cards = coupon_cards
+        self.customer_roster = []
+        self.issued_indices = []
+
+        # __init__ function done
         """
         Initialize a new CouponDispenser object.
 
